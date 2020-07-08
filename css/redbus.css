@@ -1,0 +1,503 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://pro.fontawesome.com/releases/v5.10.0/css/all.css");
+
+body {
+  background:white;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#headerBlock {
+  width: 100%;
+  z-index: 1;
+  background: #d84f57;
+  position: fixed;
+}
+
+#headerBlock .container {
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  height: 55px;
+  align-items: center;
+}
+
+#headerBlock .container .leftNav {
+  flex: 1;
+}
+
+#headerBlock .container .rightNav {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* slider block css starts here */
+
+
+#sliderBlock img {
+  width: 100%;
+  height: 450px;
+}
+
+/*--------left menu block -----------------*/
+.leftNav section {
+  display: flex;
+}
+
+.leftNav ul,
+.rightNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.leftNav ul li a,
+.rightNav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 14px;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.logo {
+  flex: 1;
+}
+
+.leftmenu {
+  flex: 8;
+}
+
+.logo a {
+  background-image: url(../images/logo.png);
+  width: 80px;
+  height: 48px;
+  display: flex;
+  text-indent: -9999px;
+}
+
+.leftNav ul li a.active {
+  font-weight: 600;
+  border-bottom: 3px solid #fff;
+  transition: ease-in-out 0.6s;
+}
+
+.leftNav ul li a:hover {
+  color: #f9e7ea;
+}
+
+.fa-user-circle {
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 20px;
+}
+
+.fa-chevron-down {
+  margin: 0px 0px 0 6px;
+}
+
+.after_user_circle {
+  margin: -24px 21px 0 41px !important;
+  display: block;
+}
+
+#searchBusesBlock article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  position: relative;
+  top: 50px;
+}
+
+#sliderBlock {
+  background-image: url("../images/safetyplus1.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+}
+
+/*-------Attribute selector -----*/
+
+input[type="date"] {
+  font-size: 11px;
+  padding: 14px 30px !important;
+  border-right: none !important;
+}
+
+#sliderBlock article input {
+  padding: 14px 28px 16px 40px;
+  border: none;
+  border-right: 1.3px solid #888;
+  box-sizing: border-box;
+}
+
+#sliderBlock article button {
+  height: 46px;
+  width: 144px;
+  background: #d74f57;
+  box-sizing: border-box;
+  border: none;
+  font-size: 14px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.city_icon {
+  position: relative;
+}
+
+.city_icon i {
+  position: absolute;
+  top: -14px;
+  left: 6px;
+  font-size: 20px;
+}
+
+/* latestUpdateBlock css starts here */
+#latestUpdateBlock {
+  display: flex;
+  justify-content: center;
+}
+
+#latestUpdateBlock article {
+  width: 530px;
+  height: 100px;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  background-color: #fff5e5;
+  display: flex;
+  align-items: center;
+  margin-top: -40px;
+}
+
+#latestUpdateBlock article div:nth-child(1) {
+  flex: 2;
+}
+
+#latestUpdateBlock article div:nth-child(2) {
+  flex: 8;
+}
+
+#latestUpdateBlock article div:nth-child(3) {
+  flex: 3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 94px;
+}
+
+.bell-on i {
+  color: #d74f57;
+  font-size: 50px;
+}
+
+#latestUpdateBlock article h4 {
+  font-size: 15px;
+  margin: 0;
+  padding: 5px;
+}
+
+#latestUpdateBlock article p {
+  font-size: 12px;
+  margin: 0;
+  padding: 5px;
+  font-weight: lighter;
+}
+
+
+
+#latestUpdateBlock article button {
+  width: 130px;
+  height: 25px;
+  background: #d74f57;
+  color: #fff;
+  padding: 4px;
+  border: none;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+#bell-on
+{
+    font-size: 50px;
+    color: #d74f57;
+}
+
+
+
+/*------OnTimeBlock CSS starts---*/
+
+
+.RightInsideHeader h3
+{
+  font-size: 22px;
+}
+.RightInsideHeader h1
+{
+  font-size: 30px;
+}
+#OnTimeBlock > article
+{
+    width: 1200px;
+    border: 1px solid #cccccc;
+    background:white;
+    margin: 60px auto;
+    display: flex;
+    height: 350px;
+    
+}
+.LeftOnDiv
+{
+    flex: 1;
+}
+.LeftOnDiv p
+{
+    background: url(../images/ontime.png);
+    height: 88px;
+    width: 88px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-indent: -9999px;
+    margin: 20px;
+
+}
+
+.RightOnDiv
+{
+    flex: 8;
+}
+
+.img3_hero,
+.img4_Hero
+{
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: middle;
+    
+}
+
+
+.img3_hero 
+{
+background: url(../images/tip-icon.png);
+width: 24px;
+height: 24px;
+}
+
+
+.img4_Hero
+{
+background: url(../images/otgText\ \(1\).png);
+width: 156px;
+height: 26px;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.RightInsideFooter
+{
+  display: flex;
+  margin: 10px;
+}
+.RightInsideFooter div{
+  flex: 1;
+}
+
+.RightInsideFooter div h5
+{
+  color: black;
+  
+}
+
+.RightInsideFooter div h2
+{
+  color: blue;
+  font-size: 18px;
+} 
+
+.RightInsideFooter div p
+{
+  font-size: 14px;
+}
+/*------OnTimeBlock CSS ends---*/
+
+
+/*----Track my bus css starts here--*/
+
+#Track article
+{
+  
+  height: 500px;
+  background-color: #e8ecef;
+  width: 1200px;
+  margin: 0 auto;
+}
+#Track article section:nth-child(1)
+{
+display: flex;
+
+}
+#Track article .First div:nth-child(1)
+{
+  flex: 1;
+  background: url(../images/track.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-indent: -900px;
+  height: 250px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 120px;
+}
+
+#Track article .First div:nth-child(2)
+{
+  flex: 1;
+  margin-top: 60px;
+  
+}
+#Track article .First div button
+{
+  color: blue;
+  border-color: blue;
+  padding: 8px 18px;
+}
+#Track article .First div p
+{
+  font-size: 14px;
+  margin-right: 20px;
+}
+#Track article .Second 
+{
+display: flex;
+margin-top: 17px;
+margin-left:170px
+}
+#Track article .Second div:nth-child(1)
+{
+  flex: 1;;
+}
+#Track article .Second div:nth-child(2)
+{
+  flex: 1;;
+}
+#Track article .Second div:nth-child(3)
+{
+  flex: 1;;
+}
+.red
+{
+  color:red;
+  font-size: 30px;
+  margin-top:-14px
+}
+.last
+{
+  font-size: 15px;
+  font-weight: lighter;
+  margin-top:-23px;
+  margin-left:-76px;
+}
+#Track article hr
+{
+  margin-top:50px;
+  
+}
+.Second h4
+{
+  margin-left: 20px;
+}
+/*----Track my bus css ends here--*/
+/*-----Mobile block start here--*/
+.MobileBlock article
+{
+  display: flex;
+  
+  
+}
+.MobileBlock article div:nth-child(1)
+{flex:1;}
+.MobileBlock article div:nth-child(2)
+{
+  flex:1;
+  background: url(../images/IOS_Android_device.png);
+  background-repeat: no-repeat;
+  height: 550px;
+  margin-left:230px;
+  margin-top: 70px;
+  text-indent: -9999px;
+  background-size: contain;
+}
+.MobileBlock .First h2
+{
+  margin-left: 140px;
+    margin-top: 75px;
+}
+.MobileBlock .First p
+{
+  margin-top: 0px;
+  margin-left: 150px;
+  font-size: 15px;;
+}
+
+
+#inputs span button
+{
+    display: block;
+    padding: 6px 16px 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color:#e9555d;
+    color: #fff;
+    margin-left: -76px;
+    margin-top: 0px;
+}
+#inputs span:nth-child(1)
+{
+  
+  margin-left: 70px;
+}
+
+
+#inputs span input:nth-child(2)
+{
+ 
+}
+
+#ios
+{
+  margin-top: 120px;
+  margin-left: -353px;
+  color: white;
+  background-color: black;
+  width: 20px;
+  size: 50px;
+  display: none;
+}
+
+#and
+{
+  margin-top: 120px;
+  margin-left: 60px;
+  color: white;
+  display: none;
+  background-color: black;
+}
+
+/*-----Mobile block start here--*/
